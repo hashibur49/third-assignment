@@ -25,6 +25,7 @@
 <body>
   <!-- Header Area Start Here -->
   <header id="header-area">
+
     <!-- Navbar Area Start Here -->
     <section id="navbar-are">
       <div class="container">
@@ -35,38 +36,45 @@
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <li class="nav-item px-2">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item px-2">
                   <a class="nav-link" href="#">Courses</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item px-2">
                   <a class="nav-link" href="#">Deals </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled">Success</a>
+                <li class="nav-item px-2">
+                  <a class="nav-link " href="#">Success</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled">About</a>
+                <li class="nav-item px-2">
+                  <a class="nav-link" href="#">About</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled">Register</a>
+                <li class="nav-item px-2">
+                  <a class="nav-link" href="#">Register</a>
                 </li>
-
               </ul>
+               
             </div>
+            <div class="collapse navbar-collapse justify-content-end row-reverse" id="navbarNav">
+              <div class="btn btn-primary ms-5">Register</div>
+            </div>
+
+            
 
           </div>
         </nav>
       </div>
     </section>
     <!-- Navbar Area End Here -->
+ 
+
     <!-- Slider Area Start Here -->
     <section id="slider-area">
-      <div class="container my-5">
+      <div class="container my-3 rounded">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -76,26 +84,41 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
               aria-label="Slide 3"></button>
           </div>
+
+          <!-- Slider 1 start here -->
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/cover/cover-1.png" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+            <div class="carousel-item active ">
+              <img src="img/cover/cover-1.png" class="d-block w-100" alt="cover-1">
+              <div class="carousel-caption slider-content d-md-block d-block ">
+                <div class="slider-content-center text-light">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                  <div class="btn btn-primary">Get Started</div>
+                </div>
+                
               </div>
             </div>
+            <!-- Slider 2 start here -->
             <div class="carousel-item">
-              <img src="img/cover/cover-2.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+              <img src="img/cover/cover-2.jpg" class="d-block w-100" alt="cover-2">
+              <div class="carousel-caption slider-content d-md-block d-block">
+                <div class="slider-content-center text-light">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                  <div class="btn btn-primary">Get Started</div>
+                </div>
               </div>
             </div>
+            <!-- Slider 3 start here -->
             <div class="carousel-item">
-              <img src="img/cover/cover-3.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+              <img src="img/cover/cover-3.jpg" class="d-block w-100" alt="cover-3">
+              <div class="carousel-caption slider-content d-md-block d-block">
+                <div class="slider-content-center text-light">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                  <div class="btn btn-primary">Get Started</div>
+                </div>
+                
               </div>
             </div>
           </div>
@@ -113,11 +136,14 @@
       </div>
     </section>
     <!-- Slider Area End Here -->
+
   </header>
   <!-- Header Area End Here -->
+
+
   <!-- Main Area Start here -->
 
-  <!-- Populer Card area Design Start Here --> 
+  <!-- Populer Course Card area Design Start Here --> 
   <section id="populer-course">
     <div class="container text-center">
       <h1>Discover Our Popular <br> Courses</h1>
@@ -135,8 +161,7 @@
             <div class="col-md-8">
               <div class="card-body text-start">
                 <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card.</p>
+                <p class="card-text">Most designers are familiar with the concept of “design thinking” as a UX process.</p>
                 <p class="card-text text-primary">Price : 20$</small></p>
               </div>
             </div>
@@ -151,9 +176,8 @@
             </div>
             <div class="col-md-8">
               <div class="card-body text-start">
-                <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card.</p>
+                <h5 class="card-title">Javascript Basic to advanced</h5>
+                <p class="card-text">JavaScript is the programming language of the Web. JavaScript is easy to learn.</p>
                 <p class="card-text text-primary">Price : 20$</small></p>
               </div>
             </div>
@@ -168,9 +192,8 @@
             </div>
             <div class="col-md-8">
               <div class="card-body text-start">
-                <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card.</p>
+                <h5 class="card-title">Fullstack Web Development</h5>
+                <p class="card-text">Full stack web development refers to the process of developing both client- and server-side software.</p>
                 <p class="card-text text-primary">Price : 20$</small></p>
               </div>
             </div>
@@ -185,9 +208,8 @@
             </div>
             <div class="col-md-8">
               <div class="card-body text-start">
-                <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card.</p>
+                <h5 class="card-title">Digital Marketing</h5>
+                <p class="card-text">Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers.</p>
                 <p class="card-text text-primary">Price : 20$</small></p>
               </div>
             </div>
@@ -202,9 +224,8 @@
             </div>
             <div class="col-md-8">
               <div class="card-body text-start">
-                <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card.</p>
+                <h5 class="card-title">Photography Basic Rules</h5>
+                <p class="card-text">As a rule of photography, you must frame the photograph visually inside the camera itself.</p>
                 <p class="card-text text-primary">Price : 20$</small></p>
               </div>
             </div>
@@ -219,9 +240,8 @@
             </div>
             <div class="col-md-8">
               <div class="card-body text-start">
-                <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card.</p>
+                <h5 class="card-title">Motion Graphics</h5>
+                <p class="card-text">Motion graphics is animation, but with text as a major component. Essentially, it's animated graphic design.</p>
                 <p class="card-text text-primary">Price : 20$</small></p>
               </div>
             </div>
@@ -238,7 +258,7 @@
 
     </div>
   </section>
-  <!-- Populer Card area Design End Here -->
+  <!-- Populer Course Card area Design End Here -->
 
 
 
@@ -322,11 +342,32 @@
     </div>
   </section>
   <!-- Frequently Asked Question Area End Here -->
+  <!-- Trusted Compnay Start Here -->
+  <section id="trusted-compnay">
+    <div class="container text-center d-none d-lg-block">
+      <h1>Trusted by over 800+ companies</h1>
+      <div class="trusted-compnay-img d-flex justify-content-between">
+        <img src="img/company/company-1.png" alt="company1">
+        <img src="img/company/company-2.png" alt="company1">
+        <img src="img/company/company-3.png" alt="company1">
+        <img src="img/company/company-4.png" alt="company1">
+        <img src="img/company/company-5.png" alt="company1">
+        <img src="img/company/company-6.png" alt="company1">
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- Trusted Compnay End Here -->
+
+
+
+
 <!-- Main Area Start here -->
 
 <!-- Footer Area Start Here -->
   <Footer id="footer">
-    <div class="mt-5 bg-dark text-light d-flex   justify-content-center align-items-center" style="height: 350px;">
+    <div class="mt-5 bg-dark text-light d-flex  justify-content-center align-items-center" style="height: 350px;">
       <div class="footer-div text-center">
         <div class="footer-content">
           <h2>Digital Learning</h2>
@@ -345,9 +386,6 @@
     </div>
   </Footer>
 <!-- Footer Area End Here -->
-
-
-
 
   <!-- Booststrap Script -->
   <script src="js/bootstrap.bundle.min.js"></script>
