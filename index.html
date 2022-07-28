@@ -156,7 +156,7 @@
         <div class="card mb-3" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4">
-              <img src="img/course/course-1.png" class="img-fluid rounded-start" alt="...">
+              <img src="img/course/course-1.png" class="img-fluid rounded-start w-75" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body text-start">
@@ -173,7 +173,7 @@
         <div class="card mb-3" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4">
-              <img src="img/course/course-2.png" class="img-fluid rounded-start" alt="...">
+              <img src="img/course/course-2.png" class="img-fluid rounded-start w-75" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body text-start">
@@ -270,26 +270,43 @@
     <div class="container">
       <div class="elearning-area">
         <div class="row">
-          <div class="col-4 col-sm-6">
-            <img src="img/working.png" class="img-fluid w-100 h-100" alt="...">
+          <div class="col-sm-12 col-md-7">
+            <img src="img/working.png" class="img-fluid w-100" alt="#">
           </div>
-          <div class="col-8 col-sm-6">
-            <h2>Explore The <br> elearning Institute</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which....See More</p>
+          <div class="col-sm-12 col-md-5">
 
-            <div class="elearning-counter d-flex justify-content-between flex-wrap justify-content-start">
-              <div class="online-course">
-                <h1>3.2K+</h1>
-                <p>Online Course</p>
-              </div>
-              <div class="online-course">
-                <h1>3.2K+</h1>
-                <p>Online Course</p>
-              </div>
-              <div class="online-course">
-                <h1>3.2K+</h1>
-                <p>Online Course</p>
+            <div class="elearing-content 
+            d-flex justify-content-center 
+            align-items-center
+            "
+            style="height: 100%;"
+            >
+              <div class="elearing-content-area pb-3">
+                <h2 class="mb-3">Explore The <br> elearning Institute</h2>
+                <p class="mb-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                  alteration
+                  in some form, by injected humour, or randomised words which....See More</p>
+
+                <div class="elearning-counter d-flex justify-content-between flex-wrap">
+                  <div class="online-course">
+                    <h1>3.2K+</h1>
+                    <p>Online Course</p>
+                  </div>
+                  <div class="online-course">
+                    <h1>600+</h1>
+                    <p>Expert member</p>
+                  </div>
+                  <div class="online-course">
+                    <h1>1K+</h1>
+                    <p>Rating & Review</p>
+                  </div>
+                </div>
+
+                <!-- Elearning Button -->
+                <button type="button" class="btn btn-primary my-5"
+                  style="--bs-btn-padding-y: .50rem; --bs-btn-padding-x: 5rem; --bs-btn-font-size: 1rem;">
+                  View All
+                </button>
               </div>
             </div>
 
@@ -304,41 +321,45 @@
 
   <!-- Registration area start here -->
   <section id="registration">
-    <div class="container my-5 bg-primary text-light rounded-2">
-      <div class="registration-area rounded-5">
+    <div class="container my-5 bg-primary text-light rounded-2" style="height: 250px;">
+      <div class="registration-area d-flex align-items-center justify-content-center h-100">
         <div class="row">
-          <div class="col-6
-            d-flex
-            justify-content-center
-            align-items-center
-            
-          " style="height: 250px;">
-            <div class="registtration-content-area ms-5">
-              <h2>Ready to Join?</h2>
-              <p>
-                It is a long established fact that a reader will be distracted by the readable content of a page when
-                looking at its layout.
-              </p>
-            </div>
 
+          <!-- Ready to Join End Here -->
+          <div class="col-lg-7 col-md-9">
+            <div class="registtration-content-area d-flex justify-content-center
+            align-items-center" style="height: 100%;">
+              <div class="registtration-content  text-center
+              text-md-start
+               
+              ">
+                <h2>Ready to Join?</h2>
+                <p>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when
+                  looking at its layout.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-6">
-            <div class="register-button-area
-            d-flex
-            justify-content-center
-            align-items-center
-            " style="height: 100%;">
+          <!-- Ready to Join End Here-->
+
+          <!-- Registration Button Area Start Here -->
+          <div class="col-lg-5 col-md-3">
+            <div class="register-button-area d-flex justify-content-center 
+            align-items-center" style="height: 100%;">
               <button type="button" class="btn btn-light text-primary" data-bs-toggle="modal"
                 data-bs-target="#exampleModal">
                 Registrer Now
               </button>
             </div>
           </div>
+          <!-- Registration Button Area End Here -->
         </div>
         <!-- Button trigger modal -->
         <!-- Modal Area Start -->
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -361,7 +382,8 @@
                   </div>
                   <div class="col-12">
                     <label for="inputAddress2" class="form-label">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    <input type="text" class="form-control" id="inputAddress2"
+                      placeholder="Apartment, studio, or floor">
                   </div>
                   <div class="col-md-6">
                     <label for="inputCity" class="form-label">Division</label>
@@ -380,7 +402,7 @@
                     </select>
                   </div>
                   <div class="col-md-2">
-                    <label for="inputZip" class="form-label">Postel Code</label>
+                    <label for="inputZip" class="form-label">ZIP</label>
                     <input type="text" class="form-control" id="inputZip">
                   </div>
                   <div class="col-12">
